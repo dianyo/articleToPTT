@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="App">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="481" height="431"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="8dd3" class="javax.swing.JLabel" binding="accountLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="8" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="140" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Fira Code Retina" size="16"/>
+          <labelFor value="76e62"/>
+          <text value="Account:"/>
+        </properties>
+      </component>
+      <component id="76e62" class="javax.swing.JTextField" binding="accountText">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="203" height="26"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2c10a" class="javax.swing.JLabel" binding="passLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="140" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Fira Code Retina" size="16"/>
+          <text value="Password:"/>
+        </properties>
+      </component>
+      <component id="dce78" class="javax.swing.JPasswordField" binding="passText">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <grid id="ddbed" binding="articlePanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none" title="Article"/>
+        <children>
+          <component id="a2a7d" class="javax.swing.JLabel" binding="boardLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="192" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Fira Code Retina" size="16"/>
+              <text value="Board:"/>
+            </properties>
+          </component>
+          <component id="d8f6f" class="javax.swing.JTextField" binding="boardText">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ed1cd" class="javax.swing.JLabel" binding="titleLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="192" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Fira Code Retina" size="16"/>
+              <text value="Title:"/>
+            </properties>
+          </component>
+          <component id="2fa3a" class="javax.swing.JTextField" binding="titleText">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="abfd9" class="javax.swing.JLabel" binding="contentLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="192" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Fira Code Retina" size="16"/>
+              <labelFor value="9532d"/>
+              <text value="Content:"/>
+            </properties>
+          </component>
+          <scrollpane id="9532d">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="100"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a7e33" class="javax.swing.JTextArea" binding="contentText">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <component id="52fe0" class="javax.swing.JButton" binding="uploadButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Upload"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
